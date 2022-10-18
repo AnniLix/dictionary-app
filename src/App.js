@@ -1,12 +1,17 @@
 import './App.css';
+import Dictoinary from "./Dictionary"
 
 function App() {
   return (
     <div className="App">
-        <p>
-          Hello
-        </p>
+      <div className="container">
+        <p>Hello</p>
+        <main>
+          <Dictoinary />
+        </main>
+        <footer className='app-footer'>Coded by Anna Balitska</footer>
       </div>
+    </div>
   );
 }
 
